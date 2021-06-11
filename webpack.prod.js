@@ -34,7 +34,4 @@ module.exports = {
     }),
     new MiniCssExtractPlugin()
   ],
-  devServer: {
-    port: process.env.PORT
-  },
 };
