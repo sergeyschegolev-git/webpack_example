@@ -1,0 +1,17 @@
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+.tab-wrapper {
+    display: flex;
+    cursor: pointer;
+
+    .tab.active {
+        background: aliceblue;
+    }
+}
+
